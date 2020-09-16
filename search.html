@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush | search</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="search-body">
+        <ul>
+                <h1>Search Patient</h1>
+            <li>
+                <label for="fname">Enter Patient's Name : </label>
+                <input type="text" placeholder='Name' id="name">
+            </li>
+            <li>
+                <label for="lname">Enter Patient's Age :</label>
+                <input type="text" placeholder='Age' id="age">
+            </li>
+        </ul>
+        <div>
+            <button type="button" onclick="Get()">Search Patient</button>
+            <button type="button" onclick="BillsBetweenDates()">Show Bills</button>
+        </div>
+        <p id='output'></p>
+    </div>
+
+    <script src="./js/search.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush | checkBills</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="./js/checkBills.js"></script>
+</head>
+<body>
+    <div class="checkBills-body">
+        <h1>Search Patient</h1>
+        <ul>
+            <li>
+                <label for="fname">Enter Patient's Name : </label>
+                <input type="text" placeholder='Name' id="name">
+            </li>
+            <li>
+                <label for="lname">Enter Patient's Age :</label>
+                <input type="text" placeholder='Age' id="age">
+            </li>
+            <li>
+                <label for="lname">From :</label>
+                <input type='date' id='Fdate'>
+            </li>
+            <li>
+                <label for="lname">To :</label>
+                <input type='date' id='Tdate'>
+            </li>
+        </ul> 
+        <button type="button" onclick="Get()">Show Bills</button>
+    </div>
+    <div class="output">
+        <p id='name_output'></p>
+        <!-- <p id='age_output'></p>
+        <p id='fdate_output'></p>
+        <p id='tdate_output'></p> -->
+    </div>
+</body>
+</html>
